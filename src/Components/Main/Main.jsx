@@ -1,4 +1,6 @@
 import React ,{ useState } from 'react';
+
+import Button from '@mui/material/Button';
 import "./Main.css";
 
 const Main = () => {
@@ -19,8 +21,15 @@ const Main = () => {
     return(
         <div className="App">
       <div className="container">
-        <header className="header">Get Your Dog</header>
+        <header className="header">Get Your Dog
 
+      
+     <button className="button-3" role="button">Follow US</button>
+
+
+
+        </header>  
+        
 
         <p>Dogs for every HyperText Transfer Protocol response status code.</p>
         <div className='searchBox'>
