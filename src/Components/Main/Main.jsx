@@ -51,6 +51,7 @@ const Main = () => {
               onChange={(event) => setNumber(event.target.value)}
               >
             </input>
+            <button className="button1" role="button" onclick ={fetchImage }>Get Dog</button>
            { dogImage.length > 0 && <image src={dogImage}></image> }
           </div>
           
